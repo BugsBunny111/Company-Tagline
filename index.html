@@ -7,48 +7,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,800;1,800&family=Roboto:wght@400;500;700&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
     <title>Company Tagline</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="header__yellow">
-            <div class="container">
-                <div class="header__yellow-content">
-                    <ul class="header__lang">
-                        <li class="header__active">Рус</li>
-                        <li>Eng</li>
-                        <li>Fr</li>
-                    </ul>
-                    <p>8 (800) 123-45-67</p>
-                    <a href="sales@log.ru">sales@log.ru</a>
-                </div>
+<header class="header">
+    <div class="header__top">
+        <div class="container">
+            <div class="header__top-wrap">
+                <ul class="header__top-lang">
+                    <li class="lang-item lang__active">
+                        Рус
+                    </li>
+                    <li class="lang-item">
+                        Eng
+                    </li>
+                    <li class="lang-item">
+                        Fr
+                    </li>
+                </ul>
+                <a class="header__top-phone link phone" href="tel:+78001234567">
+                    8 (800) 123-45-67
+                </a>
+                <a class="header__top-email link" href="mailto:sales@log.ru">
+                    sales@log.ru
+                </a>
             </div>
         </div>
-        <div class="header__black">
-            <div class="container">
-                <div class="header__black-content">
-                    <div class="header__black-logo">
-                        <img src="img/logo.png" alt="logo">
+    </div>
+    <div class="header__main">
+        <div class="container">
+            <div class="header__main-wrap">
+                <div class="header__main-logo_content">
+                    <div class="header__main-logo">
+                        <a class="link" href="javascript:void(0)">
+                            <img src="img/logo.png" alt="logo">
+                        </a>
                     </div>
-                    <div class="header__black-offices">
+                    <div class="header__main-offices">
                         <img src="img/geo.png" alt="geo">
                         <p>Наши офисы</p>
                     </div>
-                    <ul class="header__black-menu">
-                        <li>Услуги</li>
-                        <li>О компании</li>
-                        <li>Вакансии</li>
-                        <li>Контакты</li>
-                    </ul>
                 </div>
+                <ul class="header__main-menu">
+                    <li class="menu-item">
+                        <a class="link" href="javascript:void(0)">
+                            Услуги
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="link" href="javascript:void(0)">
+                            О компании
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="link" href="javascript:void(0)">
+                            Вакансии</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="link" href="javascript:void(0)">
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </header>
-</body>
+    </div>
+</header>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-wrap">
+            <div class="footer__logo">
+                <a class="link" href="javascript:void(0)">
+                    <img src="img/logo-black.png" alt="logo">
+                </a>
+            </div>
+            <!-- /.footer__logo -->
+            <div class="footer__contacts">
+                <div class="footer__contacts-column">
+                    <span class="footer__contacts-address column-item">
+                        123456, Санкт-Петербург, Невский пр-кт 127
+                    </span>
+                    <!-- /.footer__contacts-address -->
+                    <span class="footer__contacts-email column-item">
+                        <a class="link link-black" href="mailto:sales@log.ru">
+                            sales@log.ru
+                        </a>
+                    </span>
+                    <!-- /.footer__contacts-email -->
+                </div>
+                <!-- /.footer__contacts-column -->
+                <div class="footer__contacts-column">
+                     <span class="footer__contacts-phone column-item">
+                         <a class="link phone" href="tel:+78123445665">
+                             +7 (812) 344-56-65
+                         </a>
+                    </span>
+                    <!-- /.footer__contacts-phone -->
+                    <span class="footer__contacts-phone column-item">
+                       <a class="link phone" href="tel:+78123445665">
+                             +7 (812) 344-56-65
+                         </a>
+                    </span>
+                    <!-- /.footer__contacts-phone -->
+                </div>
+                <!-- /.footer__contacts-column -->
+                <div class="footer__contacts-column">
+                     <span class="footer__contacts-link_dev column-item">
+                         <a class="link link-black link-underline">
+                                Разработано - D-E-N.ru
+                         </a>
+                     </span>
+                    <!-- /.footer__contacts-link_dev -->
+                </div>
+                <!-- /.footer__contacts-column -->
 
+            </div>
+            <!-- /.footer__contacts -->
+        </div>
+        <!-- /.footer-wrap -->
+    </div>
+    <!-- /.container -->
+</footer>
+</body>
 </html>

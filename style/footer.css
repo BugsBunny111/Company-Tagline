@@ -1,0 +1,29 @@
+.footer {
+    align-items: center;
+    background: #C8A35F;
+    padding: 57px 0;
+    font-size: 14px;
+}
+.footer__logo {
+    margin-right: 30px;
+}
+.footer-wrap {
+    display: flex;
+}
+.footer__contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.footer__contacts-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer__contacts-column:last-child {
+    justify-content: flex-end;
+}
+.footer__contacts-column:not(:last-child) {
+    width: 33.3%;
+}

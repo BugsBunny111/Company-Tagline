@@ -1,95 +1,30 @@
-/* Обнуление */
 
-* {padding: 0;margin: 0;border: 0;}*, *:before, *:after {-webkit-box-sizing: border-box;box-sizing: border-box;}
-:focus, :active {outline: none;}a:focus, a:active {outline: none;}
-nav, footer, header, aside {display: block;}
-html, body {height: 100%;width: 100%;font-size: 100%;line-height: 1;font-size: 14px;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
-input, button, textarea {font-family: inherit;}
-input::-ms-clear {display: none;}
-button {cursor: pointer;}
-button::-moz-focus-inner {padding: 0;border: 0;}
-a, a:visited {text-decoration: none; color: inherit;}
-a:hover {text-decoration: none;}
-ul li {list-style: none;}
-img {vertical-align: top;}
-h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: inherit;}
-html,body {height: 100%; line-height: 1; font-size: 16px; color: black; font-family: 'PT Sans', sans-serif;}
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+@import "normalize.css";
 
-/* Шрифты */
 
 body {
     font-family: 'Roboto', sans-serif;
-}
-
-/* Шапка сайта */
-
-.header {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
 }
-
 .container {
     max-width: 1110px;
     margin: 0 auto;
+    padding: 0 20px;
+}
+.link {
+    cursor: pointer;
+    text-decoration: none;
+}
+.link-black {
+    color: #2F343A;
+}
+.link-underline {
+    text-decoration: underline;
 }
 
-.header__yellow {
-    height: 45px;
-    background-color: #C8A35F;
-    padding: 16px 0px;
-    font-size: 12px;
-}
 
-.header__yellow-content {
-    display: flex;
-    justify-content: space-between;
-}
-
-.header__lang {
-    display: flex;
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.5)
-}
-
-.header__lang li {
-    margin-right: 10px;
-}
-
-.header__active {
-    color: rgba(255, 255, 255, 1)
-}
-
-.header__black {
-    background: #2F343A;
-    height: 100px;
-    padding: 27px 0px;
-    font-size: 14px;
-}
-
-.header__black-logo {
-    min-width: 190px;
-    border-right: 1px solid #F2F2F2;
-}
-
-.header__black-content {
-    display: flex;      
-}
-
-.header__black-offices {
-    display: flex;
-    align-items: center;
-    height: 25px;
-    margin: 10px 0px 0px 30px;
-}
-
-.header__black-offices p {
-    margin-left: 13px;
-}
-
-.header__black-menu {
-    display: flex;
-    text-transform: uppercase;
-    align-items: center;
-}

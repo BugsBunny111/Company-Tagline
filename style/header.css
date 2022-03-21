@@ -1,0 +1,76 @@
+/* Шапка сайта */
+
+.header {
+    width: 100%;
+}
+
+.header__top {
+    height: 45px;
+    background-color: #C8A35F;
+    padding: 16px 0px;
+    font-size: 12px;
+}
+
+.header__top-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__top-lang {
+    display: flex;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.header__top-lang .lang-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.header__top-lang .lang__active {
+    color: rgba(255, 255, 255, 1)
+}
+
+.header__main {
+    padding: 27px 0px;
+    background: #2F343A;
+}
+
+.header__main {
+    font-size: 14px;
+}
+.header__main-wrap {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.header__main-logo_content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header__main-logo {
+    max-width: 190px;
+    border-right: 1px solid #F2F2F2;
+    padding-right: 30px;
+}
+
+.header__main-offices {
+    display: flex;
+    align-items: center;
+    height: 25px;
+    margin: 10px 0px 0px 30px;
+}
+
+.header__main-offices p {
+    margin-left: 13px;
+}
+
+.header__main-menu {
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.header__main-menu .menu-item:not(:last-child) {
+    margin-right: 30px;
+}
