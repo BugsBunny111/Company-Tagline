@@ -91,4 +91,5 @@ body {
 .header__black-menu {
     display: flex;
     text-transform: uppercase;
+    align-items: center;
 }
