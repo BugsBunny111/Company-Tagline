@@ -33,3 +33,6 @@ body {
     height: 6px;
     background: #C8A35F;
 }
+.d-none {
+    display: none;
+}
