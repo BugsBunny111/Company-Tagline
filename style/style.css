@@ -4,6 +4,7 @@
 @import "footer.css";
 @import "normalize.css";
 @import "fonts.css";
+@import "burger.css";
 
 body {
     font-family: 'Roboto', sans-serif;
